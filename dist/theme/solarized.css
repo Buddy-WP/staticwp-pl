@@ -288,7 +288,7 @@ html * {
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #268bd2; }
+  color: var(--orange-color); }
 
 /*********************************************
  * PRINT BACKGROUND

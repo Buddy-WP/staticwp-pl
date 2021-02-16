@@ -1,40 +1,623 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+	<title>Static WordPress - How To Make WordPress Faster And More Secure?</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+	<link rel="stylesheet" href="css/buddy.css">
+	
+
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="logo-sa">
+		<a href="https://buddy.works" target="_blank"><img src="images/buddy_logo.png" /></a>
+	</div>
+
+	<div class="reveal">
+
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+
+			<section>
+				<div class="inner">
+					<div class="inner-left">
+						<h1 class="title header-color">Static WordPress - How To Make WordPress Faster And More Secure?</h1>
+					</div>
+					<div class="inner-right">
+						<div class="photobg-inner">
+							<div class="label">
+								Maciek Palmowski
+							</div>
+							<div class="photobg colorfull" style="background-image: url('images/buddy_bg.png')">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-right">
+						<div class="photobg-inner">
+							<div class="photobg" style="background-image: url('images/maciek.jpg')">
+							</div>
+						</div>
+					</div>
+					<div class="inner-left">
+						<h1 class="title header-color">Maciek Palmowski</h1>
+						<div class="text">
+							<p>
+								<small>email</small>
+								maciek.palmowski@buddy.works
+							</p>
+							<p>
+								<small>I work at</small>
+								Buddy
+							</p>
+							<p>
+								<small>wordpress.org</small>
+								profiles.wordpress.org/palmiak
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			
+			<section data-background="https://i.giphy.com/1qnuGtWiouZUI.gif">
+			</section>
+			<section>
+				<center><strong>WordPress</strong>
+				<img src="images/wpowls-staticvsdynamic.png" />
+				</center>
+			</section>
+			<section>
+				<center><strong>Static</strong>
+				<img src="images/wpowls-staticvsdynamic.png" />
+				</center>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">One big difference</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>WordPress avg response time - 2844 ms</li>
+									<li class="fragment fade-up">Static avg responsone time - <strong class="blue">16 ms</strong></li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Static vs dynamic websites</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Pros of converting to static</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Speed</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li class="fragment fade-up">No database</li>
+									<li class="fragment fade-up">No parsing, server only serves data</li>
+									<li class="fragment fade-up">Easier server setup</li>
+									<li class="fragment fade-up">It doesn't affect CSS or JS</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Speed</h1>
+						<div class="text">
+							<p>
+								5 clients every second for 30 seconds
+							</p>
+							<p>
+								<strong>WordPress without Cache</strong> - 2844 ms avg response
+							</p>
+							<p class="fragment fade-up">
+								<strong>WordPress with Cache</strong> - 345 ms avg response
+							</p>
+							<p class="fragment fade-up">
+								<strong>WordPress</strong> - <strong class="blue">16 ms avg response</strong>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Speed</h1>
+						<div class="text">
+							<p>
+								50 clients every second for 30 seconds
+							</p>
+							<p>
+								<strong>WordPress without Cache</strong> - error<br/>
+								<span class="orange">100% error rate</span>
+							</p>
+							<p class="fragment fade-up">
+								<strong>WordPress with Cache</strong> - 600 ms avg response<br/>
+								<span class="orange">29,6% error rate</span>
+							</p>
+							<p class="fragment fade-up">
+								<strong>Static WordPress</strong> - <strong class="blue">12 ms avg response</strong>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Security</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>WordPress can be on a separate server</li>
+									<li class="fragment fade-up">WordPress can even be available only on localhost</li>
+									<li class="fragment fade-up">It's easier to make it secure</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">WordPress - attack vectors</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Core, Plugin or Themes vulnerabilities</li>
+									<li class="fragment fade-up">Malware</li>
+									<li class="fragment fade-up">FTP/SFTP</li>
+									<li class="fragment fade-up">wp-admin brute force attacks</li>
+									<li class="fragment fade-up">DDoS</li>
+									<li class="fragment fade-up">DNS</li>
+									<li class="fragment fade-up">PHP</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Static website - attack vectors</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>FTP/SFTP</li>
+									<li class="fragment fade-up">DDoS</li>
+									<li class="fragment fade-up">DNS</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Hosting Costs</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Simpler hosting costs less</li>
+									<li class="fragment fade-up">Sometimes it's free - GitHub Pages or Netlify</li>
+									<li class="fragment fade-up">Typical WordPress hosting starts at 12 - 20 € / month / site</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Peace of mind</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Using a CDN can make your website equaly fast all over the world</li>
+									<li class="fragment fade-up">There are less things that can break</li>
+									<li class="fragment fade-up">WordPress is divided apart from the static website</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Cons of converting to static</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Not every site can be converted</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>User profiles</li>
+									<li>Dynamic content</li>
+									<li>Social media sites</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Some parts will need some workarounds</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Forms - Kwes, Basin</li>
+									<li>Search - Algolia</li>
+									<li>Comments - Reply Box, Disqus</li>
+									<li>ECommerce - Snipcar, Commercelayer</li>
+								</ul>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">The build process itself</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>You always have to remember about it</li>
+									<li class="fragment fade-up">It takes some extra time</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Too long build time in some cases</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Buildes take more time when there is a lot of posts</li>
+									<li class="fragment fade-up">On sites with a multiple article published every hour, builds may happen too often and take too much time</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Ways to go static</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">WordPress plugin + CI/CD</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>WP2Static, Static HTML Output, Simply Static</li>
+									<li>WP-CLI</li>
+									<li>Buddy, GitHub Actions, Travis</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">WordPress plugin + CI/CD</h1>
+						<div class="text">
+							<p>
+								<ul class="no-list">
+									<li>✔️ It's cheap</li>
+									<li class="fragment fade-up">✔️ Full control over the whole proccess</li>
+									<li class="fragment fade-up">✔️/ ❌ Many plugins are compatible out of the box</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Static Site Generator + CI/CD</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Gatsby, Gridsome, Hugo, Eleventy</li>
+									<li>WP Rest API or GraphQL API</li>
+									<li>Buddy, GitHub Actions, Travis</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Static Site Generator + CI/CD</h1>
+						<div class="text">
+							<p>
+								<ul class="no-list">
+									<li>✔️ It’s cheap</li>
+									<li class="fragment fade-up">✔️ We can use other programming languages</li>
+									<li class="fragment fade-up">❌ More problematic in terms of plugins compatibility</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Service</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Strattic, Shifter, FlatSite</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Service</h1>
+						<div class="text">
+							<p>
+								<ul class="no-list">
+									<li>❌ It's more expensive</li>
+									<li class="fragment fade-up">❌ Less control over the proccess</li>
+									<li class="fragment fade-up">✔️ It just works, without any setup</li>
+									<li class="fragment fade-up">✔️ Some additional plugin integations out of the box</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Is it worth it?</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-background="https://i.giphy.com/media/4SLTGHrFJAvXGHHRLj/source.gif">
+				
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Is it worth it?</h1>
+						<div class="text">
+							<p>
+								Go for it when:
+								<ul>
+									<li>you don't have any login or registration feature</li>
+									<li class="fragment fade-up">it's a blog, business page or portfolio</li>
+									<li class="fragment fade-up">you aren't focused on adding a new post every few seconds</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Real life example</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-background="images/wpowls1.png">
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Server Structure</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>One server with SSH access</li>
+									<li class="fragment fade-up">WordPress is under a subdomain</li>
+									<li class="fragment fade-up">Static is under top level domain</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Static HTML Output configuration</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>Exporting as a ZIP</li>
+									<li class="fragment fade-up">Excluding URLs I don't need (/category for example)</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<center><img src="images/wpowls2.png"></center>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Build times</h1>
+						<div class="text">
+							<p>
+								<ul>
+									<li>~30 pages takes about 2-3 minutes</li>
+									<li>~200 pages takes about 4-5 minutes</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<center><img src="images/wpowls3.png"></center>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<center>
+						<img src="images/wpowls4.png" />
+						<a href="https://buddy.works/guides/static-wordpress">Check out this guide</a>
+						</center>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Any questions?</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="inner">
+					<div class="inner-full">
+						<h1 class="title header-color">Thank you</h1>
+						<div class="text">
+							<p>
+								
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>

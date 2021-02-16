@@ -290,7 +290,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #a23; }
+  color: var(--orange-color); }
 
 /*********************************************
  * PRINT BACKGROUND

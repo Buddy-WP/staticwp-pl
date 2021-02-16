@@ -287,7 +287,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #51483D; }
+  color: var(--orange-color); }
 
 /*********************************************
  * PRINT BACKGROUND

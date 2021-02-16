@@ -265,7 +265,7 @@ $controlsArrowAngleActive: 36deg;
 	right: $spacing;
 	left: auto;
 	z-index: 11;
-	color: #000;
+	color: var(--orange-color);
 	pointer-events: none;
 	font-size: 10px;
 
@@ -301,7 +301,7 @@ $controlsArrowAngleActive: 36deg;
 		width: $controlArrowLength;
 		height: $controlArrowThickness;
 		border-radius: $controlArrowThickness/2;
-		background-color: currentColor;
+		background-color: var(--orange-color);
 
 		transition: all 0.15s ease, background-color 0.8s ease;
 		transform-origin: floor(($controlArrowThickness/2)*10)/10 50%;
