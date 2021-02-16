@@ -9,8 +9,10 @@
     --weight400: 400;
     --weight500: 500;
     --weight700: 700;
+    --weight900: 900;
   
     --font70: 70px;
+    --font50: 50px;
     --font28: 32px;
     --font33: 35px;
     --font20: 23px;
@@ -44,7 +46,7 @@
   }
 
   .logo-sa {
-    opacity: 0.9;
+    opacity: 1;
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -73,11 +75,11 @@
     align-items: center;
   }
   
-  @media only screen and (max-width: 1700px) {
+  /* @media only screen and (max-width: 1700px) {
     .slides .inner {
       padding: 0 80px;
     }
-  }
+  } */
   
   .slides .inner-left {
     width: 72%;
@@ -97,21 +99,30 @@
   
   .title {
     font-size: var(--font70) !important;
-    font-weight: var(--weight500) !important;
+    font-weight: var(--weight900) !important;
     position: relative;
     text-transform: none !important;
     margin-bottom: 80px !important;
     padding-left: 50px !important;
     line-height: normal !important;
   }
+
+  .subtitle {
+    font-size: var(--font50) !important;
+    font-weight: var(--weight500) !important;
+    padding-left: 50px !important;
+    text-transform: none !important;
+  }
   
   .title::before {
     content: "";
     width: 360px;
     height: 10px;
-    background-color: var(--blue-color);
+    background: rgb(0,77,255);
+    background: linear-gradient(90deg, rgba(0,77,255,1) 0%, rgba(26,134,253,1) 100%);
     position: absolute;
     bottom: -32px;
+    border-radius: 20px;
     left: 0;
     line-height: normal !important;
     transform: translateX(-50%);
@@ -162,11 +173,13 @@
     left: -80px;
     font-size: var(--font20) !important;
     color: var(--white-color);
-    font-weight: var(--weight500) !important;
+    font-weight: var(--weight700) !important;
     padding: 25px !important;
-    text-transform: uppercase;
+    text-transform: none;
     width: calc(100% - 50px) !important;
-    background-color: var(--blue-color);
+    background: rgb(0,77,255);
+    border-radius: 6px;
+    background: linear-gradient(90deg,rgba(26,134,253,1) 100%, rgba(0,77,255,1) 0%);
     transform: translateY(-50px);
     text-align: right !important;
     z-index: 777 !important;
