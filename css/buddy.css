@@ -169,15 +169,14 @@
   
   .label {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     left: -80px;
     font-size: var(--font20) !important;
     color: var(--white-color);
     font-weight: var(--weight700) !important;
     padding: 25px !important;
     text-transform: none;
-    width: calc(100% - 50px) !important;
-    background: rgb(0,77,255);
+    width: 100% !important;
     border-radius: 6px;
     background: linear-gradient(90deg,rgba(26,134,253,1) 100%, rgba(0,77,255,1) 0%);
     transform: translateY(-50px);
